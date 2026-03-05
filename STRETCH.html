@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Screen Image</title>
+    <style>
+        /* Remove default margins and padding */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Prevent scrollbars */
+        }
+
+        /* Style the image to fill the screen */
+        img {
+            width: 100vw; /* Full viewport width */
+            height: 100vh; /* Full viewport height */
+            object-fit: cover; /* Stretch to cover without distorting aspect ratio; use 'fill' if you want to force stretch and possibly distort */
+        }
+    </style>
+</head>
+<body>
+    <img src="https://lh3.googleusercontent.com/d/1zPYXicSNLhUVoFwH7mqzFVsjU-PUXUXU" alt="Full screen image">
+</body>
+</html>
